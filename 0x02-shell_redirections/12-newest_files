@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -l | cut -d " " -f 6-10 | sort -r | head -10
